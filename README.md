@@ -36,7 +36,7 @@ The next step is to add login, yet we would like to know when a route is called 
 
 Create a emdpoint `/login`:
 - It uses the `POST` method
-- Store the data in the data base
+- Get the data from the data base
 
 ## Step 4: Add todo
 
@@ -52,7 +52,7 @@ The next step is to add get_todo, yet we would like to know when a route is call
 
 Create a emdpoint `/get_todo`:
 - It uses the `POST` method
-- Store the data in the data base
+- Get the data from the data base
 
 ## Authors
 
