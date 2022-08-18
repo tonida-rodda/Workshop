@@ -6,7 +6,7 @@ from database import database
 app = Flask(__name__, template_folder='templates')
 new_connection_db = database()
 
-@app.route("/", methods = ['POST'])
+@app.route("/", methods = ['GET'])
 def index():
     return 'Hello world'
 
