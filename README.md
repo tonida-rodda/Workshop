@@ -56,8 +56,8 @@ Create a emdpoint `/get_todo`:
 
 ## Authors
 
-| [<img src="https://github.com/PaulMonnery.png?size=85" width=85><br><sub>Paul Monnery</sub>](https://github.com/PaulMonnery) | [<img src="https://github.com/Qwexta.png?size=85" width=85><br><sub>Théo Ardouin</sub>](https://github.com/Qwexta) | [<img src="https://github.com/lerimeur.png?size=85" width=85><br><sub>Grégoire Brasseur</sub>](https://github.com/lerimeur)
-| :---: | :---: | :---: |
+| [<img src="https://github.com/tonida-rodda.png?size=85" width=85><br><sub>Toni Da rodda</sub>](https://github.com/tonida-rodda) | [<img src="https://github.com/RezaRahemtola.png?size=85" width=85><br><sub>Reza Rahemtola</sub>](https://github.com/RezaRahemtola)
+| :---: | :---: |
 <h2 align=center>
 Organization
 </h2>
