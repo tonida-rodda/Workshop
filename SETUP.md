@@ -1,63 +1,40 @@
 # Setup
 
-## 1. Python
+## Python & Flask
 
 In this workshop, we will create an HTTP REST server using Python.
-First of all, you have make sure you have [**python 3** or higher installed](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu).
+First of all, you have make sure you have [**python 3.7** or higher installed](https://phoenixnap.com/kb/how-to-install-python-3-ubuntu).
 
 If you have the right version installed, you should have something similar:
 ```sh
 python --version
-> python --version Python 3.8.10 # OK
+> Python 3.10.4 # OK
 ```
 
-## 3. Flask
-
-we will need to install the backewnd framework.
-First of all, you have make sure you have [**Flask**](https://flask.palletsprojects.com/en/2.2.x/installation/).
+To install our backend framework Flask, just follow [the instructions from the official website](https://flask.palletsprojects.com/en/2.2.x/installation/) :wink:
 
 If you have the right version installed, you should have something similar:
 ```sh
 flask --version
-> flask --version 
-Python 3.8.10
-Flask 1.1.1
-Werkzeug 0.16.1 # OK
+> Python 3.10.4
+> Flask 2.2.2
+> Werkzeug 2.2.2 # OK
 ```
-## 2. Mysql
 
-we will need to install a data base for managing our data.
-First of all, you have make sure you have [**mysql**](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04).
+## MySQL
+
+One thing is missing to our backend: a database!  
+In this workshop, we'll use [**mysql**](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04).
 
 If you have the right version installed, you should have something similar:
 ```sh
 mysql --version
-> mysql --version mysql  Ver 8.0.30-0ubuntu0.20.04.2 for Linux on x86_64 ((Ubuntu)) # OK
+> mysql   Ver 8.0.30-0ubuntu0.22.04.1 for Linux on x86_64 ((Ubuntu)) # OK
 ```
 
-## 2. Postman, Hoppscotch, Curl
 
-We will be using `postman` to test out our routes, but you can also use `Hoppscotch`, `curl`, or whatever other tool you want for your tests since they will be personal, but we highly recommend `postman` as we will explain you how to use it.
+## Launching the server
 
-- [Postman](https://www.postman.com/downloads/)
-- [Hoppscotch](https://hoppscotch.io/)
-- [Curl](https://curl.haxx.se/) (often already installed on your computer)
-
-
-## 3. Launching the server
-
-Once everything is installed, you have to download the workshop files **[here](https://downgit.github.io/#/home?url=https://github.com/PoCInnovation/Workshops/tree/master/software/02.Go/src)**.
-Then, go in the [src](./src) folder and execute:
-```sh
-go run ./
-# to simply launch the server
-```
-or
-```sh
-go build ./ && ./poc-workshop-go
-# to compile a binary and run it
-```
-
-**If you have `Server runs on http://localhost:8080`, you've finished the setup and you can go for the exercises**
+TODO
 
 [Go back to the exercises](./README.md)
