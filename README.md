@@ -7,7 +7,7 @@ In this workshop we will learn how to use the main functions of the http package
 
 All the required information to install the workshop's dependencies are given in the [SETUP.md](./SETUP.md)
 
-## Step 0: let's get started
+## Step 1: let's get started
 
 We designed a boilerplate for this project, it will be useful to start more easily but also to understand all the required parts of an API.  
 
@@ -19,7 +19,7 @@ Add a route on the endpoint `/`:
 
 > You can test it by going to http://localhost:8080/hello in your browser or using `postman`
 
-## Step 1: Register
+## Step 2: Register
 
 You have succesfully created an endpoint!
 The next step is to add register, yet we would like to know when a route is called to know if everything went well.
@@ -29,7 +29,7 @@ Create a emdpoint `/register`:
 - Store the data in the data base
 
 
-## Step 2: Login
+## Step 3: Login
 
 You have succesfully created an endpoint!
 The next step is to add login, yet we would like to know when a route is called to know if everything went well.
@@ -38,7 +38,7 @@ Create a emdpoint `/login`:
 - It uses the `POST` method
 - Store the data in the data base
 
-## Step 3: Add todo
+## Step 4: Add todo
 
 The next step is to add add_todo, yet we would like to know when a route is called to know if everything went well.
 
@@ -46,7 +46,7 @@ Create a emdpoint `/add_todo`:
 - It uses the `POST` method
 - Store the data in the data base
 
-## Step 4: Get todo
+## Step 5: Get todo
 
 The next step is to add get_todo, yet we would like to know when a route is called to know if everything went well.
 
