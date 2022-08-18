@@ -35,6 +35,8 @@ mysql --version
 
 ## Launching the server
 
-TODO
+```sh
+python3 main.py
+```
 
 [Go back to the exercises](./README.md)
