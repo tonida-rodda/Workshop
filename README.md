@@ -17,7 +17,7 @@ Add a route on the endpoint `/`:
 - It uses the `GET` method
 - It responds `"hello world"`
 
-> You can test it by going to http://localhost:8080/hello in your browser or using `postman`
+> You can test it by going to http://localhost:8080/ in your browser or using `postman`
 
 ## Step 2: Register
 
