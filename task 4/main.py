@@ -16,8 +16,6 @@ def register():
     try:
         requested_mail: string = request_body.get('mail')
         requested_password: string = request_body.get('password')
-        if (not requested_mail or not requested_password):
-            raise
         new_connection_db.add_user_in_db(requested_mail, requested_password)
     except:
         return 'Error in creation!'
