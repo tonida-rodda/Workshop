@@ -35,6 +35,7 @@ mysql --version
 
 ## Launching the server
 
+Go in your tasks folder and run this command:
 ```sh
 python3 main.py
 ```
